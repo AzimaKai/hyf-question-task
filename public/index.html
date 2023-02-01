@@ -25,14 +25,23 @@
         <h1 class="question__header">
           Ask your question
         </h1>
-        <textarea rows="4" placeholder="type here">
+        <input id="email" type="email">
+        <textarea id="quest" rows="4" placeholder="type here">
 
         </textarea>
+        <label for="technology">Select a technology:</label>
+        <select id="technology" name="technology">
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="JS">JavaScript</option>
+          <option value="REACT">React</option>
+        </select>
         <button class="question__submit">
           Ask
         </button>
       </div>
     </section>
   </main>
+<script src="js/index.js"></script>
 </body>
 </html>
