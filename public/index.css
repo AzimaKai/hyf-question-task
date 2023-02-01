@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #11111d;
+  padding: 20px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.header nav ul li {
+  margin: 0 20px;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.header nav ul li a:hover {
+  color: #f00;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  height: 100%;
+}
+
+.question {
+  width: 35%;
+  height: 100vh;
+  position: relative;
+}
+
+.question__wrapper {
+  background-color: lightgrey;
+  padding: 20px;
+  margin: 20px;
+  position: sticky;
+  top: 20px;
+  right: 30px;
+  width: 100%;
+  height: auto;
+}
+
+.question__header {
+  font-size: 32px;
+  text-align: center;
+  margin: 20px;
+}
+
+textarea {
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+}
+
+.question__submit {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  background-color: #11111d;
+  color: white;
+  cursor: pointer;
+}
+
+.question__submit:hover {
+  background-color: #f00;
+}
+
