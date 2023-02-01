@@ -26,6 +26,12 @@
     },
     "email": {
       "type": "email"
+    },
+    "answers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::answer.answer",
+      "mappedBy": "question"
     }
   }
 }
